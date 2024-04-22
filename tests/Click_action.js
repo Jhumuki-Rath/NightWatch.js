@@ -1,0 +1,9 @@
+module.exports=
+{
+    "Perform_click":function(brower)
+    {
+        browser.url("http://tutorials.actionqa.com/yt/nw/basic/click.html")
+        browser.pause(2000)
+        browser.click("#surprise-button")
+    }
+}
